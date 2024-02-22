@@ -66,17 +66,36 @@ nav{
 .venue-container, .guests-container{
     height: 100%;
 }
+.venue-container .row{
+    height: 70%;
+    /* width: 100%; */
+}
 /* .venue-container .row{
     height: 100%;
 } */
 .map-box{
+    /* width: 50%;
+    height: 50%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
     border: 1px solid gray;
     border-radius: 15px;
     box-shadow: 0 8px 16px gray;
-    min-height: 35%;
+   
 }
-
+iframe{
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
 #contact{
     padding-top: 15vh;
     height: 100vh;
+}
+.contact-box{
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 gray;
 }
