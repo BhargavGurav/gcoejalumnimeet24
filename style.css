@@ -60,8 +60,8 @@ nav{
 }
 
 #venue{
-    margin-top: 20vh;
-    height: 80vh;
+    padding-top: 15vh;
+    height: 100vh;
 }
 .venue-container, .guests-container{
     height: 100%;
@@ -69,10 +69,11 @@ nav{
 /* .venue-container .row{
     height: 100%;
 } */
-.map-box, .address-box{
+.map-box{
     border: 1px solid gray;
     border-radius: 15px;
     box-shadow: 0 8px 16px gray;
+    min-height: 35%;
 }
 
 #contact{
