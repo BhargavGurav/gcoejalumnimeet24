@@ -74,3 +74,8 @@ nav{
     border-radius: 15px;
     box-shadow: 0 8px 16px gray;
 }
+
+#contact{
+    padding-top: 15vh;
+    height: 100vh;
+}
