@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* body{
+    height: 8000px;
+} */
+nav{
+   background-color: whitesmoke;
+    /* border: 1px solid gray; */
+    box-shadow: 0 2px 8px 0  rgb(26, 25, 25);
+}
+
+/********************* Home ********************/
+
+.home-container{
+    /* border: 1px solid black; */
+    padding-top: 9.5vh;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('/images/Alumnimeet3-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;    
+}
+.home-container::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.646);
+}
+.home-container .row{
+    position: relative;
+    height: 100%;
+
+}
+
+#guests{
+    /* margin-top: 0vh; */
+    padding-top: 15vh;
+    height: 100vh;
+    border-bottom: 1px solid black;
+}
+.guest-head{
+    
+}
+.guest-box{
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 gray;
+    margin: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#venue{
+    margin-top: 20vh;
+    height: 80vh;
+}
+.venue-container, .guests-container{
+    height: 100%;
+}
+/* .venue-container .row{
+    height: 100%;
+} */
+.map-box, .address-box{
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px gray;
+}
