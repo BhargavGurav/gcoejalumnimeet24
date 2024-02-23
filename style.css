@@ -67,13 +67,13 @@ nav{
     min-height: 80vh;
 }
 .venue-container .row{
-    height: 60vh;
+    min-height: 60vh;
     /* width: 100%; */
 }
 /* .venue-container .row{
     height: 100%;
 } */
-.map-box{
+.map-box, .address-box{
     /* width: 50%;
     height: 50%; */
     padding-top: 20px;
@@ -98,4 +98,7 @@ iframe{
     border: 1px solid black;
     border-radius: 7px;
     box-shadow: 0 2px 4px 0 gray;
+}
+#footer{
+    margin-bottom: 0 !important;
 }
